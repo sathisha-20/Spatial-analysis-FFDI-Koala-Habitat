@@ -9,7 +9,8 @@ This project performs a **spatiotemporal analysis of the Forest Fire Danger Inde
 ## 📁 Folder Structure
 
 📦 Spatiotemporal Analysis and Koala Habitat Files/dropbox link below
-├── 2013-2023_pastfires.zip # Shapefile of preprocessed past fire polygons from 2013 to 2023
+├── Study Area # Area of this study shapefile
+├──2013-2023_pastfires.zip # Shapefile of preprocessed past fire polygons from 2013 to 2023
 ├── Monthly_FFDI files/ # Monthly FFDI raster files (GeoTIFF format)
 ├── FFDI_highrisk_12plus/ # Binary rasters with high-risk FFDI pixels (FFDI > 12)
 ├── Koala_Data/Preprocessed Koala shapefile/ Thresholded shapefile # Spatial data of koala habitat areas
