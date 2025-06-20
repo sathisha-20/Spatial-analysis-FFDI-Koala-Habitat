@@ -1,22 +1,72 @@
 # Spatial-analysis-FFDI-Koala-Habitat
 
+## 📘 Project Description
 
-## Project Description
-This project analyzes the **Forest Fire Danger Index (FFDI)** over New South Wales, Australia, from 2013 to 2023. It identifies high fire-risk areas and evaluates their spatial and temporal trends. The analysis also assesses the impact of fire risk on Koala habitats using QGIS and Python.
-
----
-
-## Folder Structure
-
-- **Files/**: Contains raster datasets of monthly FFDI values and other spatial data.
-- **Codes for analysis/**: Python scripts for processing FFDI data, identifying high-risk pixels, calculating annual fire risk areas in km², and exporting results.
-- **README.md**: This documentation file.
+This project analyzes the **Forest Fire Danger Index (FFDI)** across **New South Wales, Australia**, from **2013 to 2023**. It identifies regions under high fire risk and assesses their spatial and temporal trends. Additionally, it evaluates the impact of fire risk on **koala habitats**, using **Python** and **QGIS**.
 
 ---
 
-## How to Run the Analysis
+## 📁 Folder Structure
 
-1. **Install Python packages**:  
-   Open your terminal or command prompt and run:  
-   ```bash
-   pip install numpy pandas rasterio
+📦 Spatiotemporal Analysis and Koala Habitat Files/dropbox link below
+├── 2013-2023_pastfires.zip # Shapefile of preprocessed past fire polygons from 2013 to 2023
+├── Monthly_FFDI files/ # Monthly FFDI raster files (GeoTIFF format)
+├── FFDI_highrisk_12plus/ # Binary rasters with high-risk FFDI pixels (FFDI > 12)
+├── Koala_Data/Preprocessed Koala shapefile/ Thresholded shapefile # Spatial data of koala habitat areas
+├── Output_Spatiotemporal analysis/ # Results from spatial and temporal analysis
+└── README.md # This documentation file
+
+📁 Notebooks/
+├── Calculation of FFDI.ipynb # Calculates FFDI using input climate data
+├── Calculation of KBDI & DF.ipynb # Calculates KBDI and Drought Factor
+├── FFDI_Spatiotemporal Analysis.ipynb # Calculates high-risk area trends and plots
+├── Overlap_Analysis_FFDI_Koalahabitat.ipynb # Identifies overlaps with koala habitats
+└── Validation_of_FFDI_with_past_fires.ipynb # Compares FFDI maps with historical fire data
+
+yaml
+Copy
+Edit
+
+---
+
+## 🔗 Access the Datasets ()
+
+📥 **Download all files from Dropbox**:  
+👉 [**Click here to access the shared folder**](https://www.dropbox.com/scl/fo/y69xi2vhj2ucse75myh50/ABG0er6CdJDU60dFqmu2d5s?rlkey=9tuamuw7yurnz231006yfxrh3&st=qdeexgfx&dl=0)  
+
+---
+
+## 🧰 How to Run the Analysis
+
+### 1. Install Required Python Packages
+
+Open your terminal and run:
+
+```bash
+pip install numpy pandas rasterio geopandas shapely matplotlib seaborn xarray rioxarray
+2. Open and Run the Jupyter Notebooks
+Execute the notebooks in the following recommended order:
+
+Calculation of FFDI.ipynb
+
+Calculation of KBDI & DF.ipynb
+
+FFDI_Spatiotemporal Analysis.ipynb
+
+Validation_of_FFDI_with_past_fires.ipynb
+
+Overlap_Analysis_FFDI_Koalahabitat.ipynb
+
+Make sure all required datasets are downloaded and extracted in the appropriate folders.
+
+📊 Key Outputs
+Time series plots of total high-risk areas (FFDI > 12)
+
+Year-wise fire risk trends
+
+Spatial risk maps (monthly and annually)
+
+Overlap analysis of fire risk zones with koala habitat
+
+Validation of modeled fire risk with actual past fires
+
