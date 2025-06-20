@@ -61,13 +61,16 @@ Overlap_Analysis_FFDI_Koalahabitat.ipynb
 Make sure all required datasets are downloaded and extracted in the appropriate folders.
 
 📊 Key Outputs
-Time series plots of total high-risk areas (FFDI > 12)
 
-Year-wise fire risk trends
+FFDI Monthly Files
 
-Spatial risk maps (monthly and annually)
+High- Risk Files
+
+Time series plots of FFDI clusters and trend analysis, Seasonality analysis
+
+Time series of Annual high risk areas
+
+Validation of modelled fire risk with actual past fires
 
 Overlap analysis of fire risk zones with koala habitat
-
-Validation of modeled fire risk with actual past fires
 
