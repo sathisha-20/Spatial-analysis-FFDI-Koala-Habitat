@@ -2,7 +2,7 @@
 
 ## 📘 Project Description
 
-This project analyzes the **Forest Fire Danger Index (FFDI)** across **New South Wales, Australia**, from **2013 to 2023**. It identifies regions under high fire risk and assesses their spatial and temporal trends. Additionally, it evaluates the impact of fire risk on **koala habitats**, using **Python** and **QGIS**.
+This project performs a **spatiotemporal analysis of the Forest Fire Danger Index (FFDI)** across **New South Wales, Australia**, from **2013 to 2023**. It identifies regions under high fire risk over time and evaluates the **spatial overlap between fire risk and FFDI**. Additionally, the project assesses the impact of fire risk on **koala habitats**, using **Python** and **QGIS**.
 
 ---
 
@@ -29,7 +29,7 @@ Edit
 
 ---
 
-## 🔗 Access the Datasets ()
+## 🔗 Access the Datasets
 
 📥 **Download all files from Dropbox**:  
 👉 [**Click here to access the shared folder**](https://www.dropbox.com/scl/fo/y69xi2vhj2ucse75myh50/ABG0er6CdJDU60dFqmu2d5s?rlkey=9tuamuw7yurnz231006yfxrh3&st=qdeexgfx&dl=0)  
